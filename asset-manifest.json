@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/personal-finance-dashboard/static/css/main.4de83af8.css",
-    "main.js": "/personal-finance-dashboard/static/js/main.f7887384.js",
+    "main.js": "/personal-finance-dashboard/static/js/main.86619867.js",
     "static/js/239.60b7949c.chunk.js": "/personal-finance-dashboard/static/js/239.60b7949c.chunk.js",
     "static/js/644.e3d89b38.chunk.js": "/personal-finance-dashboard/static/js/644.e3d89b38.chunk.js",
     "static/js/455.ebac6952.chunk.js": "/personal-finance-dashboard/static/js/455.ebac6952.chunk.js",
     "index.html": "/personal-finance-dashboard/index.html",
     "main.4de83af8.css.map": "/personal-finance-dashboard/static/css/main.4de83af8.css.map",
-    "main.f7887384.js.map": "/personal-finance-dashboard/static/js/main.f7887384.js.map",
+    "main.86619867.js.map": "/personal-finance-dashboard/static/js/main.86619867.js.map",
     "239.60b7949c.chunk.js.map": "/personal-finance-dashboard/static/js/239.60b7949c.chunk.js.map",
     "644.e3d89b38.chunk.js.map": "/personal-finance-dashboard/static/js/644.e3d89b38.chunk.js.map",
     "455.ebac6952.chunk.js.map": "/personal-finance-dashboard/static/js/455.ebac6952.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4de83af8.css",
-    "static/js/main.f7887384.js"
+    "static/js/main.86619867.js"
   ]
 }
