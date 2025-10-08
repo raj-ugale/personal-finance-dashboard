@@ -1,0 +1,97 @@
+.transaction-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  animation: fadeIn 0.8s ease;
+}
+
+.transaction-form {
+  background: rgba(238, 227, 227, 0.12);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 950px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.25);
+  transition: all 0.4s ease;
+}
+
+.transaction-form:hover {
+  box-shadow: 0 12px 40px rgba(99, 102, 241, 0.25);
+  transform: translateY(-3px);
+}
+
+.transaction-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 2rem;
+}
+
+.transaction-form input,
+.transaction-form select {
+  width: 90%;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(129, 127, 127, 0.2);
+  background: rgba(255, 255, 255, 0.25);
+  color: #111;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-form input:focus,
+.transaction-form select:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 10px rgba(124, 58, 237, 0.4);
+  outline: none;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.transaction-form select{
+  width: 97%;
+}
+
+.transaction-form select option {
+  background-color: #fff;
+  color: #111;
+}
+
+.transaction-form button {
+  grid-column: 1 / -1;
+  justify-self: center;
+  background: linear-gradient(135deg, #7c3aed, #6366f1);
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0.9rem 2.5rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.3);
+}
+
+.transaction-form button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+}
+
+.transaction-form button:active {
+  transform: scale(0.97);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
